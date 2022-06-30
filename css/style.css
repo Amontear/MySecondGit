@@ -1,0 +1,53 @@
+*,*::before,*::after {
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html, 
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    background-color: rgb(105, 167, 196);
+    color: red;
+    /* font-family: ; //Ваш шрифт */
+}
+
+body {
+    margin: 0;
+}
+.wrapper {
+    max-width: 960px;
+    padding: 0px;
+    margin: 0 auto;
+    border: 0;
+    box-sizing: border-box;
+}
+.content {
+    color: black;
+}
+.montana    {
+    color: green;
+    border: 1px dotted blue;
+}
